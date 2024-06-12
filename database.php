@@ -1,6 +1,6 @@
 <?php
     $host = "localhost";
-    $dbname = "bookshop_db";
+    $dbname = "login_db";
     $username = "root";
     $password = "";
 
@@ -9,6 +9,5 @@
     if ($mysqli->connect_errno) {
         die("Connection error: " . $mysqli->connect_error);
     }
-
     return $mysqli;
 ?>

@@ -18,29 +18,29 @@ body {
 }
 
 body {
-    padding-top: 300px !important; /* Navbar height and more */
-
     flex: 1;
     display: flex;
     flex-direction: column;
     background-color: orangered;
 }
-html{
-    min-height: 100vh;
 
+html {
+    min-height: 100vh;
 }
 
 .container {
     flex: 1;
     min-height: 100vh;
 }
-.fill-page{
+
+.fill-page {
     min-height: 100vh;
 }
 
 footer {
     flex-shrink: 0;
 }
+
 
 /* Other existing styles */
 
@@ -74,6 +74,7 @@ footer {
     border-radius: 3px;
 }
 
+
 /*Profile*/
 
 .profile {
@@ -99,6 +100,7 @@ footer {
 .btn-back {
     margin-bottom: 20px;
 }
+
 
 /*Book=================*/
 
@@ -198,6 +200,7 @@ footer {
     color: var(--ACCENT);
 }
 
+
 /*Top section with search bar*/
 
 .top-section {
@@ -238,6 +241,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
 
 /*Placing Orders*/
 
